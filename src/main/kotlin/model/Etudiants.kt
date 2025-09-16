@@ -1,6 +1,6 @@
 package model
 
-class Etudiants(var nom: String, var age: Int) {
+class Etudiants(nom: String, var age: Int) {
 
     var nom: String = nom
         get() = field.uppercase()
